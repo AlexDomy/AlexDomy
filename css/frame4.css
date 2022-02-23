@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    opacity: 0;
+}
+
+.firstBlock {
+    padding: 0 150px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstBlock p {
+    width: 645px;
+    font-size: 28px;
+    font-weight: 400;
+    text-shadow: none;
+}
+
+
+.firstBlock img {
+    width: 700px;
+}
+
+.secondBlock {
+
+}
+
+.blockArticle {
+    width: 60%;
+    margin: 100px 170px 0;
+    background: linear-gradient(to right, #FFF 4%, #e8b1fd 100%);
+    font-size: 45px;
+    box-sizing: border-box;
+    padding: 23px 0 43px;
+    color: black;
+    border-radius: 10px;
+}
+
+.secondBlock div {
+    width: 650px;
+}
+
+.secondBlock > div:nth-child(4) {
+    margin: 0 auto 208px;
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.25);
+    width: 60%;
+    height: 700px;
+    padding: 120px 0 90px 100px;
+}
+
+.secondBlock > div:last-child {
+    margin: 114px auto 137px;
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.25);
+    width: 60%;
+    height: 900px;
+    padding: 120px 0 90px 100px;
+}
+
+.secondBlock div:last-child > p {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondBlock div p {
+    display: inline-block;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.secondBlock > div:nth-child(4) p:nth-child(even) {
+    float: right;
+    text-align: left;
+    width: 800px
+}
+
+.secondBlock div {
+    margin: 100px 316px;
+}
+
+.secondBlock p {
+    text-shadow: none;
+    font-size: 28px;
+}
+
+.secondBlock div.delimiter {
+    background: linear-gradient(to left, rgba(251, 211, 233, 0.452) 0%, #BB3777 50%, rgba(251, 211, 233, 0.527) 100%);
+    margin: 0 auto;
+    width: 70%;
+    height: 3px;
+}
+
+.delimiter {
+    background: linear-gradient(to left, rgba(251, 211, 233, 0.452) 0%, #BB3777 50%, rgba(251, 211, 233, 0.527) 100%);
+    margin: 0 auto;
+    width: 70%;
+    height: 3px;
+}
+
+.secondBlock > p {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secondBlock > p:last-child {
+    margin-top: 30px;
+}
+
+.secondBlock > p b:first-child {
+    color: #6B0707;
+}
+
+.thirdBlock div p {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.thirdBlock .blockArticle {
+    margin-bottom: 100px;
+}
+
+.thirdBlock > div p:nth-child(2) {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.thirdBlock p:first-child b {
+    font-weight: normal;
+    color: blue;
+}
+
+.thirdBlock div ul {
+    width: 1100px;
+    margin: 70px auto 100px;
+}
+
+.thirdBlock div ul li {
+    list-style: outside;
+}
+
+p, .thirdBlock div ul li {
+    font-size: 28px;
+    text-shadow: none;
+    margin-bottom: 50px;
+}
+
+.thirdBlock div div {
+    margin: 100px auto;
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.25);
+    width: 60%;
+    height: 600px;
+    padding: 120px 0 90px 100px;
+}
+
+.thirdBlock div div p {
+    margin-bottom: 30px;
+}
+
+.thirdBlock div:last-child p {
+    margin-bottom: 20px;
+}
+
+.thirdBlock div:last-child > p b {
+    color: #6B0707;
+}
+
+.thirdBlock div:last-child p:first-child b {
+    color: blue;
+}

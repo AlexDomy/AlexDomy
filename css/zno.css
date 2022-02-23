@@ -1,0 +1,211 @@
+/* Blocks  */
+
+.firstBlock {
+    transition: all 300ms ease-in-out;
+}
+
+.secondBlock {
+    height: 1300px;
+    transition: all 300ms ease-in-out;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+h1, h2 {
+    color: black;
+}
+
+.info {
+    height: 309px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 111px 60px 0;
+    box-sizing: border-box;
+}
+
+.info div {
+    width: 309px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info div h2 {
+    width: 203px;
+    margin-top: 100px;
+}
+
+.info div p {
+    background: rgba(251, 199, 212, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    height: 52px;
+    width: 198px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.info div:first-child {
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 16px;
+    background: white;
+    background-clip: padding-box;
+    padding: 89px 39px 0;
+    border-radius: 180px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.info div:first-child::before {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(to bottom, #FDB99B 0,#CF8BF3 48.96%, #A770EF 100%, blue);
+    content: '';
+    z-index: -1;
+    border-radius: 180px;
+  }
+
+.info div:first-child h1 {
+    font-size: 35px;
+    border-bottom: solid black 3px;
+    width: 72px;
+    margin-bottom: 35px;
+}
+
+.info div:first-child p {
+    background: none;
+    box-shadow: none;
+    line-height: 28px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Блоки с датами  */
+
+.datesBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 161px auto 0;
+    padding: 0 312px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.datesBlock > div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.datesBlock > div:last-child {
+    justify-content: space-around;
+    margin-top: 82px;
+}
+
+.datesBlock div div {
+    width: 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datesBlock div div h3, p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.datesBlock div div h2 {
+    margin-top: 22px;
+}
+
+.datesBlock div:last-child div h2 {
+    width: 200px;
+    text-align: center;
+}
+
+.datesBlock div div:nth-child(n+3):nth-child(-n+5) h2{
+    font-size: 15px;
+    width: 101px;
+}
+
+.datesBlock div:last-child div:nth-child(n+3):nth-child(-n+5) h2{
+    font-size: 24px;
+    width: 200px;
+}
+
+.datesBlock div div div {
+    height: 89px;
+    width: 101px;
+    background-color: rgba(251, 241, 241, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    padding: 12px 0;
+    box-sizing: border-box;
+}
+
+/* Подрьная информация */
+
+.moreInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 321px;
+    margin-top: 200px;
+}
+
+.moreInfo > div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.moreInfo div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 743px;
+    width: 526px;
+}
+
+.moreInfo > div:last-child {
+    margin-top: 70px;
+}
+
+.moreInfo > div:nth-child(2) {
+    width: 90%;
+    height: 4px;
+    margin-top: 20px;
+    background: linear-gradient(to right, white 0%, #A36DE9 43.98%, #A36DE9 55.96% ,white 100%);
+    }
+
+.moreInfo div div h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 28px;
+    margin-left: -120px;
+    margin-bottom: 61px;
+}
+
+.moreInfo div div img {
+    margin-right: 20px;
+}
+
+.moreInfo div div p {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 28px;
+}

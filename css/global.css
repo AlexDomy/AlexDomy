@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    color: rgba(0, 0, 0, 0.74);
+}
+
+a, p, span {
+    font-size: 18px;
+}
+
+body.fixed {
+    overflow: hidden;
+}
+
+/* header */
+
+/* #toponly {
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    height: 0;
+} */
+
+.firstBlock + .secondBlock{
+    transition: ease-in-out 300ms;
+}
+
+header {
+    width: 100%;
+    height: 134px;
+    padding: 0 66px;
+    position: relative;
+    top: 34px;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    transition: all 500ms ease-in-out; 
+}
+
+header h1 {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 28px;
+        color: rgba(0, 0, 0, 0.74);
+}
+
+header div {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left,#9796F0 0%, #FBC7D4 100%);
+    border-radius: 90px;
+    transition: width 900ms ease-in-out;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    align-self: flex-end;
+}
+
+header > ul, header h1 { 
+    opacity: 1;
+    transition: all 300ms;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 150px;
+    border-radius: 20px;
+    transition: all 200ms;
+}
+
+header ul li a:hover {
+    color: rgba(56, 84, 157, 1);;
+}
+
+
+/* header onload animation */
+
+header.preloadfixed {
+    position: fixed;
+    top: 34px;
+}
+
+header.preload > ul, header.preload h1 { 
+    opacity: 0;
+}
+
+header.preloadfixed > ul, header.preloadfixed h1 {
+    opacity: 0;
+}
+
+header.preloadfixedLast > ul, header.preloadfixedLast h1 {
+    opacity: 1;
+}
+
+header.preload {
+    position: fixed;
+    top: 40%;
+}
+
+header div.preload {
+    width: 100px
+}
+
+header.preload + .firstBlock {
+    opacity: 0;
+}
+
+header.preloadfixed + .firstBlock {
+    opacity: 0;
+}
+
+header.preload + .firstBlock + .secondBlock {
+    opacity: 0;
+}
+
+header.preloadfixed + .firstBlock + .secondBlock {
+    opacity: 0;
+}
+
+header.preload + .firstBlock + .secondBlock + footer {
+    opacity: 0;
+}
+
+header.preloadfixed + .firstBlock + .secondBlock + footer {
+    opacity: 0;
+}
+
+header.preload + .thirdBlock {
+    opacity: 0;
+}
+
+header.preloadfixed .thirdBlock {
+    opacity: 0;
+}
+
+header.preload + .thirdBlock + footer {
+    opacity: 0;
+}
+
+header.preloadfixed + .thirdBlock + footer {
+    opacity: 0;
+}
+
+
+footer {
+    margin-top: 384px;
+    height: 384px;
+    background: linear-gradient(#FFFFFF 0%, #FBC7D4 98.96%);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 120px 99px 0;
+    box-sizing: border-box;
+    transition: all 500ms ease-in-out; 
+}
+
+footer ul {
+    width: 204px;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 24px;
+}
+
+footer ul li:first-child {
+    margin-bottom: 25px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #252424;
+    font-size: 18px;
+    transition: all 200ms;
+}
+
+footer ul li a:hover {
+    color: #7e7e7e;
+}
+
+footer ul li img {
+    margin-right: 20px;
+}
+
+footer div {
+    width: 330px;
+    margin-right: 120px;
+}
+
+footer div h2 {
+    color: rgba(0, 0, 0, 0.52);
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.poweredby {
+    position: absolute;
+    right: 24px;
+    margin-top: 220px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.52);
+}
+
+.poweredby:last-child {
+    margin-top: 200px;
+    right: 10px;
+}
+
+footer h2, p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer p {
+    font-size: 15px;
+}
