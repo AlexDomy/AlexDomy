@@ -1,0 +1,160 @@
+h1, h2 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.firstBlock {
+    transition: all 300ms;
+    height: calc(100vh - 168px);
+    margin-top: 19px;
+    background-image: url(../../static/img/topprevimage.svg);
+    background-size: cover;
+    padding: 0 160px;
+}
+
+.firstBlock div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstBlock div img {
+    width: 455px;
+    height: 459px;
+    border-radius: 56px;
+    margin-top: 65px;
+}
+
+.firstBlock div h2 {
+    font-size: 30px;
+    width: 520px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-top: 135px;
+}
+
+.firstBlock div h2 img {
+    width: 58px;
+    height: 56px;
+    margin-top: -130px;
+}
+
+.messageBox {
+    height: 300px;
+}
+
+.message {
+    background-image: url(../../static/img/message.svg);
+    width: 742px;
+    height: 240px;
+    margin-top: 50px;
+    animation: messageAnim 3s ease-in-out infinite;
+}
+
+.message p {
+    display: block;
+    font-family: 'Comfortaa', cursive;
+    font-size: 23px;
+    line-height: 43px;
+    margin: 90px 0 0 40px;
+}
+
+.secondBlock {
+    background-image: url(../../static/img/secondblockbackground.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    transition: all 500ms ease-in-out;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 247px;
+    padding: 0 103px;
+    box-sizing: border-box;
+}
+
+.info-list div {
+    width: 309px;
+    height: 228px;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-list div h2, p {
+    font-family: 'Comfortaa', cursive;
+}
+
+.info-list div h2 {
+    text-align: center;
+}
+
+.info-list div h2 {
+    text-align: center;
+}
+
+.profile {
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 113px 0 194px;
+}
+
+.profile > div:first-child{
+    width: 593px;
+    margin-top: 371px;
+    background-image: url(../../static/img/portfolioback.svg);
+    background-size: contain;
+}
+
+.profile div img {
+    width: 399px;
+    height: 554px;
+    margin-top: 250px;
+}
+
+.profile div:last-child p {
+    width: 382px;
+    margin: 20px 0 0 20px;
+}
+
+.profile div h2 {
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.profile div p {
+    font-size: 20px;
+    line-height: 37px;
+}
+
+.marginfix{
+    margin-bottom: 50px;
+}
+
+.profile div div {
+    width: 180px;
+    height: 5px;
+    background: linear-gradient(to right, rgba(154, 83, 244, 0.66) 0%, #E0BCF1 100%);
+    border-radius: 90px;
+    margin: 8px auto 72px;
+}
+
+@keyframes messageAnim {
+    from {
+        margin-top: 50px;
+    }
+    50% {
+        margin-top: 20px;
+    }
+    to {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,106 @@
+.firstBlock {
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+}
+
+.left {
+    width: 50%;
+}
+
+.left form {
+    width: 471px;
+    height: 471px;
+    margin: 0 auto;
+    background-color: rgba(240, 238, 238, 1);
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0 36px;
+    box-sizing: border-box;
+}
+
+.left form input {
+    width: 370px;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid 1px rgba(189, 184, 184, 1);
+    background: transparent;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.left form input:focus {
+    outline: none;
+}
+
+.left form input.wrongMail {
+    border-bottom: solid red 1px;
+}
+
+.left form input.wrongMail::placeholder {
+    color: red;
+}
+
+.left form h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.left form input:last-child {
+    width: 263px;
+    height: 50px;
+    background-color: rgba(151, 150, 240, 0.85);
+    color: rgba(240, 238, 238, 1);
+    border: none;
+    border-radius: 90px;
+    transition: all 200ms;
+}
+
+.left form input:last-child:hover {
+    background-color: rgba(151, 150, 240, 0.95);
+}
+
+.left form input:last-child:hover {
+    background-color: rgb(122, 120, 236);
+}
+
+.right {
+    width: 50%;
+}
+
+.right > div {
+    width: 495px;
+    height: 471px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.right > div > p {
+    margin: 55px auto 41px;
+}
+
+.right > div div img {
+    padding: 16px;
+    box-sizing: border-box;
+    width: 87px;
+    height: 87px;
+    background-color: rgba(240, 238, 238, 1);
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-right: 31px;
+}
+
+.right > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 67px;
+}

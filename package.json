@@ -1,0 +1,20 @@
+{
+  "name": "firework",
+  "version": "1.0g.0",
+  "description": "Simple Framework for Creating Simple Apps",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Yan Svintsov",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.8"
+  },
+  "dependencies": {
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.5.5"
+  }
+}

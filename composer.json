@@ -1,0 +1,18 @@
+{
+    "name": "slidi/firework",
+    "description": "Simple Framework for Creating Simple Apps",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Firework\\": "firework",
+            "App\\Controllers\\": "app/controllers",
+            "Config\\": "config"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "ext-mysqli": "*",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "license": "MPL-2.0"
+}

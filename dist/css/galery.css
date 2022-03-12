@@ -1,0 +1,31 @@
+.firstBlock {
+    flex-direction: column;
+}
+
+.firstBlock div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.firstBlock > div:nth-child(even) img {
+    width: 472px;
+}
+
+.firstBlock > div:nth-child(odd) img {
+    width: 717px;
+}
+
+.firstBlock div:first-child {
+    padding-right: 300px;
+}
+
+.firstBlock div:first-child img:last-child {
+    max-width: 300px;
+}
+
+.firstBlock div:first-child img:first-child {
+    width: 900px;
+}
