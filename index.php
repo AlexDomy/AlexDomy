@@ -14,7 +14,7 @@ use App\Controllers\SliderController;
 $router = new Router();
 
 $router->get('/home', [MainController::class, 'render']); // Готово
-$router->get('/galery', [GaleryController::class, 'render']); // Не готово
+$router->get('/gallery', [GaleryController::class, 'render']); // Готово
 $router->get('/zno', [ZnoController::class, 'render']); // Готово
 $router->get('/frame4', [FrameController::class, 'render']); // Готово
 $router->get('/contacts', [ContactsController::class, 'render']); // Готово
