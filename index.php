@@ -18,5 +18,5 @@ $router->get('/gallery', [GaleryController::class, 'render']); // Готово
 $router->get('/zno', [ZnoController::class, 'render']); // Готово
 $router->get('/frame4', [FrameController::class, 'render']); // Готово
 $router->get('/contacts', [ContactsController::class, 'render']); // Готово
-$router->get('/slider', [SliderController::class, 'render']); // Создать файл контроллера
+$router->get('/slider', [SliderController::class, 'render']); // Не готово
 $router->post('/form_decode', [ContactsController::class, 'form']); // Не вёрстка
