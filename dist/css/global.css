@@ -27,8 +27,12 @@ body.fixed {
     height: 0;
 } */
 
-.firstBlock + .secondBlock{
-    transition: ease-in-out 300ms;
+.firstBlock {
+    transition: ease-in-out 500ms;
+}
+
+.secondBlock {
+    transition: ease-in-out 500ms;
 }
 
 header {
