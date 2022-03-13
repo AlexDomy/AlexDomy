@@ -13,10 +13,10 @@ use App\Controllers\SliderController;
 
 $router = new Router();
 
-$router->get('/home', [MainController::class, 'render']); // Готово
+$router->get('/', [MainController::class, 'render']); // Готово
 $router->get('/gallery', [GaleryController::class, 'render']); // Готово
 $router->get('/zno', [ZnoController::class, 'render']); // Готово
-$router->get('/frame4', [FrameController::class, 'render']); // Готово
+$router->get('/info', [FrameController::class, 'render']); // Готово
 $router->get('/contacts', [ContactsController::class, 'render']); // Готово
-$router->get('/slider', [SliderController::class, 'render']); // Не готово
+$router->get('/helpful', [SliderController::class, 'render']); // Готово
 $router->post('/form_decode', [ContactsController::class, 'form']); // Не вёрстка

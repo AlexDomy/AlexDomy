@@ -1,5 +1,6 @@
 .firstBlock {
     flex-direction: column;
+    transition: ease-in-out 500ms;
 }
 
 .firstBlock div {

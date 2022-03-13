@@ -172,3 +172,7 @@ p, .thirdBlock div ul li {
 .thirdBlock div:last-child p:first-child b {
     color: blue;
 }
+
+footer {
+    height: 484px;
+}

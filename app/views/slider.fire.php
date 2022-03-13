@@ -25,25 +25,22 @@
     <div id="topline" class="preload"></div>
     <ul>
         <li>
-            <a href="#">Порфолiо</a>
+            <a href="/">Порфолiо</a>
         </li>
         <li>
-            <a href="#">Новини</a>
+            <a href="/gallery">Галерея</a>
         </li>
         <li>
-            <a href="#">Батькам</a>
+            <a href="/info">Дітям та Батькам</a>
         </li>
         <li>
-            <a href="#">Дітям</a>
+            <a href="/helpful">Корисні ресурси</a>
         </li>
         <li>
-            <a href="#">Корисні ресурси</a>
+            <a href="/zno">ЗНО</a>
         </li>
         <li>
-            <a href="#">ЗНО</a>
-        </li>
-        <li>
-            <a href="#">Контакти</a>
+            <a href="/contacts">Контакти</a>
         </li>
     </ul>
 </header>
@@ -129,12 +126,12 @@
     </div>
     <ul>
         <li>Послуги</li>
-        <li><a href="#">Портфоліо</a></li>
-        <li><a href="#">Новини</a></li>
-        <li><a href="#">Батькам</a></li>
-        <li><a href="#">Дітям</a></li>
-        <li><a href="#">Корисні ресурси</a></li>
-        <li><a href="#">ЗНО</a></li>
+        <li><a href="/">Портфоліо</a></li>
+        <li><a href="/gallery">Галерея</a></li>
+        <li><a href="/info">Батькам та Дiтям</a></li>
+        <li><a href="/helpful">Корисні ресурси</a></li>
+        <li><a href="/zno">ЗНО</a></li>
+        <li><a href="/contacts">Контакти</a></li>
     </ul>
     <ul>
         <li>Контакты</li>
